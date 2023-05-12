@@ -49,6 +49,7 @@
     <span style="--i:11;"><b>11</b></span>
     <span style="--i:12;"><b>12</b></span>
     </div>
+</div> 
     </div>
     <script>
 
@@ -77,15 +78,15 @@
         ss.style.strokeDashoffset = 760- (760 * s) / 60;
         // 60 seconds 
 
-        sec_dot.style.transform = `rotataZ(${s * 6}deg)`;
+        sec_dot.style.transform = `rotateZ(${s * 6}deg)`;
         // 360 / 60 seconds = 6
-        min_dot.style.transform = `rotataZ(${m * 6}deg)`;
+        min_dot.style.transform = `rotateZ(${m * 6}deg)`;
         // 360 / 60 seconds = 6
-        hr_dot.style.transform = `rotataZ(${h* 30}deg)`;
+        hr_dot.style.transform = `rotateZ(${h* 30}deg)`;
         // 360 / 30 hrs = 12
-        hr.style.transform = `rotataZ(${h * 30}deg)`;
-        mn.style.transform = `rotataZ(${m * 6}deg)`;
-        sc.style.transform = `rotataZ(${s * 6}deg)`;
+        hr.style.transform = `rotateZ(${h * 30}deg)`;
+        mn.style.transform = `rotateZ(${m * 6}deg)`;
+        sc.style.transform = `rotateZ(${s * 6}deg)`;
 
 
         })
